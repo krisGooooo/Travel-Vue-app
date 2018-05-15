@@ -2,7 +2,7 @@
 	<div>
 		<div class="title">热销推荐</div>
 		<ul>
-			<li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+			<li class="item border-bottom" v-for="item of list" :key="item.id">
 				<img :src="item.imgUrl" class="item-img">
 				<div class="item-info">
 					<p class="item-title">{{item.title}}</p>
@@ -17,25 +17,8 @@
 <script>
 export default {
 	name: 'HomeRecommend',
-	data () {
-		return {
-			recommendList:  [{
-				id: '0001',
-				imgUrl: 'https://imgs.qunarzz.com/p/tts6/1802/8b/dad3719f0a8ae302.jpg_r_240x160x90_cfb17389.jpg',
-				title: '纯玩昆大理',
-				desc: '浪漫的纯玩昆大理，不容错过'
-			},{
-				id: '0002',
-				imgUrl: 'https://imgs.qunarzz.com/p/tts6/1802/8b/dad3719f0a8ae302.jpg_r_240x160x90_cfb17389.jpg',
-				title: '纯玩昆大理',
-				desc: '浪漫的纯玩昆大理，不容错过'
-			},{
-				id: '0003',
-				imgUrl: 'https://imgs.qunarzz.com/p/tts6/1802/8b/dad3719f0a8ae302.jpg_r_240x160x90_cfb17389.jpg',
-				title: '纯玩昆大理',
-				desc: '浪漫的纯玩昆大理，不容错过'
-			}]
-		}
+	props: {
+		list: Array
 	}
 }	
 </script>
