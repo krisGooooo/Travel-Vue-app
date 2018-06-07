@@ -4,6 +4,10 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+static/mock
+>>>>>>> a63c5f204053182ebfe975bb992d23bec74e5e52
 
 # Editor directories and files
 .idea

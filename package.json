@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "travel",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "dell.lee",
+=======
+  "name": "travel-vue-app",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "kris 851837721@qq.com",
+>>>>>>> a63c5f204053182ebfe975bb992d23bec74e5e52
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -11,11 +18,19 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^0.17.1",
     "better-scroll": "^1.8.1",
     "fastclick": "^1.0.6",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
+=======
+    "axios": "^0.18.0",
+    "better-scroll": "^1.11.1",
+    "fastclick": "^1.0.6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+>>>>>>> a63c5f204053182ebfe975bb992d23bec74e5e52
     "vue": "^2.5.2",
     "vue-awesome-swiper": "^2.6.7",
     "vue-router": "^3.0.1"
