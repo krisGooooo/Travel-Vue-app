@@ -3,6 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+<<<<<<< HEAD
+import fastClick from 'fastclick'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'styles/reset.css'
+import 'styles/border.css'
+import 'styles/iconfont.css'
+import 'swiper/dist/css/swiper.css'
+
+Vue.config.productionTip = false
+fastClick.attach(document.body)
+=======
 import fastClick from 'fastClick'// 解决body click延迟300毫秒运行的问题
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'styles/reset.css'// 解决浏览器显示不统一的问题
@@ -13,6 +24,7 @@ import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)// 绑定document.body
+>>>>>>> a63c5f204053182ebfe975bb992d23bec74e5e52
 Vue.use(VueAwesomeSwiper)
 
 /* eslint-disable no-new */

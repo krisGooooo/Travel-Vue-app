@@ -1,8 +1,14 @@
 <template>
   <div>
+<<<<<<< HEAD
+    <home-header :city="city"></home-header>
+    <home-swiper :list="swiperList"></home-swiper>
+    <home-icons :list="iconList"></home-icons>
+=======
   	<home-header :city="city"></home-header>
   	<home-swiper :list="swiperList"></home-swiper>
   	<home-icons :list="iconList"></home-icons>
+>>>>>>> a63c5f204053182ebfe975bb992d23bec74e5e52
     <home-recommend :list="recommendList"></home-recommend>
     <home-weekend :list="weekendList"></home-weekend>
   </div>
@@ -18,9 +24,15 @@ import axios from 'axios'
 export default {
   name: 'Home',
   components: {
+<<<<<<< HEAD
+    HomeHeader,
+    HomeSwiper,
+    HomeIcons,
+=======
   	HomeHeader,
   	HomeSwiper,
   	HomeIcons,
+>>>>>>> a63c5f204053182ebfe975bb992d23bec74e5e52
     HomeRecommend,
     HomeWeekend
   },
@@ -56,4 +68,10 @@ export default {
 }
 </script>
 
+<<<<<<< HEAD
+<style>
+
+</style>
+=======
 <style></style>
+>>>>>>> a63c5f204053182ebfe975bb992d23bec74e5e52

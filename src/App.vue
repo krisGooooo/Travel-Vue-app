@@ -10,6 +10,9 @@ export default {
 }
 </script>
 
+<<<<<<< HEAD
+<style></style>
+=======
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -20,3 +23,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+>>>>>>> a63c5f204053182ebfe975bb992d23bec74e5e52
